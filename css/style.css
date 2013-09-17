@@ -1,16 +1,29 @@
+body {
+  font-family: Helvetica,Arial,sans-serif;
+  }
+
 .secondary header {
   color: white;
+  font-weight: bold;
+  padding: 2px 0 2px 10px;
+  }
+.secondary li {
+  list-style-type: none;
+  margin: 0 0 0 -30px;
 }
 .secondary header.red {
-  background: transparent url('../images/bg-header-red.png') no-repeat;
-}
+  background: transparent url('../images/bg-header-red.png') repeat-y;
+  }
+
 .secondary header.green {
-  background: transparent url('../images/bg-header-green.png') no-repeat;
-}
+  background: transparent url('../images/bg-header-green.png') repeat-y;
+  }
+
 .secondary header.gold {
-  background: transparent url('../images/bg-header-gold.png') no-repeat;
-}
+  background: transparent url('../images/bg-header-gold.png') repeat-y;
+  }
+
 .secondary header.blue {
-  background: transparent url('../images/bg-header-blue.png') no-repeat;
-}
+  background: transparent url('../images/bg-header-blue.png') repeat-y;
+  }
 
