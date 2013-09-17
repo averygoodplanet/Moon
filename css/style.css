@@ -1,0 +1,16 @@
+.secondary header {
+  color: white;
+}
+.secondary header.red {
+  background: transparent url('../images/bg-header-red.png') no-repeat;
+}
+.secondary header.green {
+  background: transparent url('../images/bg-header-green.png') no-repeat;
+}
+.secondary header.gold {
+  background: transparent url('../images/bg-header-gold.png') no-repeat;
+}
+.secondary header.blue {
+  background: transparent url('../images/bg-header-blue.png') no-repeat;
+}
+
