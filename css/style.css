@@ -1,32 +1,56 @@
-li {
-  list-style: none;
-  /*margin: 0;*/
+/*---------------------------------------
+body declaration used while positioning
+---------------------------------------*/
+body {
+  background-color: #000000;
+}
+/*---------------------------------------
+delete body declaration when done positioning
+---------------------------------------*/
+
+nav {
+/*---------------------------------------
+next 3 lines for easy comparison to model site
+---------------------------------------*/
+  position: absolute;
+  top: 150px;
+  left: 41px;
+/*---------------------------------------
+delete previous 3 lines when done positioning
+---------------------------------------*/
+  background-color: #36223e;
+  width: 200px;
 }
 
-a {
-  text-decoration: none;
-  color: #937b9e;
-}
-
-ul {
+nav ul {
   margin: 0;
   padding: 0;
 }
 
-nav {
-/*. . . . . . . . . . . . . . . .
-  use next 3 lines for easy comparison to model site & then delete
-. . . . . . . . . . . . . . . .*/
-  position: absolute;
-  top: 146px;
-  left: 42px;
+nav li {
+  list-style: none;
+  /*margin: 0;*/
+}
 
-  background-color: #36223e;
-  width: 200px;
+nav a {
+  text-decoration: none;
+  color: #937b9e;
+}
+
+nav > ul > li {
+  margin: -4px 0 0 0;
 }
 
 nav > ul > ul > li {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
-  padding: 5px 0 5px 15px;
+  padding: 6px 0 4px 15px;
+}
+
+nav > ul > ul > li:last-child {
+  padding-bottom: 14px;
+}
+
+nav > ul > ul > li > a:hover {
+  color: #ffffff;
 }
