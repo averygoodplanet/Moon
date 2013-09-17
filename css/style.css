@@ -1,0 +1,29 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/*White Section (section on the right near the big planet picture)*/
+
+#white_section {
+  width: 750px;
+  border: 1px solid black;
+}
+
+#path li {
+  display: inline;
+  font-size: 13px;
+}
+
+#path a {
+  text-decoration: none;
+  color: rgb(57, 109, 192);
+}
+
+#path a:hover {
+  text-decoration: underline;
+}
+
+#path_bottom_border {
+  border-bottom: 1px solid gray;
+  width: 698px;
+}
