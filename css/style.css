@@ -96,6 +96,10 @@ content: " | ";
   margin: 7px;
 }
 
+.secondary .more {
+  font-weight: bold;
+}
+
 .clear {
   float: none;
   clear: both;
