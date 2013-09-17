@@ -64,8 +64,17 @@ body {
   font-size: 13px;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
-  border: 1px solid rgb(188, 201, 223);
+  /*border: 1px solid rgb(188, 201, 223);*/
   padding: 4px 50px;
+}
+
+#blue_within_white .tabs_ul li #overview {
+  background-color: white;
+  border-bottom: 0px;
+}
+
+#blue_within_white .tabs_ul #overview {
+
 }
 
 #blue_within_white .tabs_ul a:hover {
@@ -92,14 +101,40 @@ body {
   /*this indents the top line of folder tabs */
 }
 
-#blue_within_white .tabs_ul:nth-child(2) {
-  top: 6px;
+#blue_within_white .tabs_ul:nth-child(2)  {
+  top: 7px;
+}
+
+#blue_within_white .tabs_ul:nth-child(2) .tabs a {
+  box-shadow: none;
 }
 
 #blue_within_white .tabs_ul #education_tab {
   border-top-left-radius: 22px!important;
 }
 
-#overview {
-  background-color: white !important;
+
+#white_middle_container {
+  /*This is the div with a white background spanning
+  from the bottom of the folder tabs to the bottom
+  of the main content section.*/
+  width: 734px;
+  background-color: white;
+  margin: -6px 10px 17px 10px;
+}
+
+#white_middle_container img {
+  height: 350px;
+  width: 702px;
+}
+
+#white_middle_container figcaption {
+  color: rgb(26, 66, 165);
+  font-size: 11px;
+}
+
+#moon_box {
+  position: relative;
+  top: 10px;
+  border: 1px solid rgb(121, 142, 178);
 }
