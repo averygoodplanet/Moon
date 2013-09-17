@@ -35,10 +35,6 @@ body {
   font-weight: bold;
 }
 
-.secondary .units {
-
-}
-
 .secondary .units li {
   display: inline;
   color: gray;
@@ -52,6 +48,11 @@ content: " | ";
 
 .secondary .units li:first-child:before {
   content: none;
+}
+
+.secondary .units li:last-child {
+  border-right: solid 500px transparent;
+  overflow: hidden;
 }
 
 .secondary .units .active {
