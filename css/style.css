@@ -74,3 +74,29 @@ content: " | ";
 .secondary .date-event span {
   font-weight: bold;
 }
+
+.secondary .spotlight span.name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.secondary .spotlight span.date:after {
+  content: '\A';
+  white-space: pre;
+}
+
+.secondary .spotlight .featured .name:after {
+  content: '\A';
+  white-space: pre;
+}
+
+.secondary .spotlight .featured img {
+  float: right;
+  margin: 7px;
+}
+
+.clear {
+  float: none;
+  clear: both;
+}
