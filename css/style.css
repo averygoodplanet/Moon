@@ -4,6 +4,11 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 /*White Section (section on the right near the big planet picture)*/
 
 #white_section {
