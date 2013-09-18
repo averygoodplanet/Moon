@@ -55,6 +55,10 @@ body {
   display: inline;
 }
 
+#blue_within_white #white_middle_container li {
+  display: block;
+}
+
 #blue_within_white .tabs_ul a {
   color: rgb(114, 138, 177);
   background-color: rgb(225, 235, 249);
@@ -139,4 +143,10 @@ body {
   padding: 4px;
   margin: 11px 9px 7px 11px;
   border: 1px solid rgb(121, 142, 178);
+}
+
+#white_middle_container h3 {
+  color: #165AAE;
+  font-size: 14px;
+  padding-left: 13px;
 }
