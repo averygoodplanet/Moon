@@ -1,3 +1,4 @@
+
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -150,3 +151,98 @@ body {
   font-size: 14px;
   padding-left: 13px;
 }
+
+nav {
+  background-color: #36223e;
+  width: 200px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  /*margin: 0;*/
+}
+
+nav a {
+  text-decoration: none;
+  color: #937b9e;
+}
+
+nav > ul > li {
+  margin: -4px 0 0 0;
+}
+
+nav > ul > ul > li {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  padding: 6px 0 4px 15px;
+}
+
+nav > ul > ul > li:nth-child(6) a {
+  color: #ffffff;
+}
+
+nav > ul > ul > li:last-child {
+  padding-bottom: 14px;
+}
+
+nav > ul > ul > li > a:hover {
+  color: #ffffff;
+}
+
+.sidebar_misc {
+  width: 200px;
+  background-color: #09234a;
+  margin: -4px 0 0 0;
+}
+
+.searchbox {
+  padding: 16px 0 0 12px;
+}
+
+.searchbox > img:first-child {
+  float: left;
+}
+
+.searchbox > img:last-child {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+/*selects the follow box*/
+.sidebar_misc > img:nth-child(2) {
+  padding: 13px 0 0 12px;
+}
+
+/*selects the webby image*/
+.sidebar_misc > img:nth-child(3) {
+  padding: 5px;
+}
+
+/*---------------------------------------
+body declaration used while positioning
+---------------------------------------*/
+body {
+  background-color: #000000;
+}
+/*---------------------------------------
+delete body declaration when done positioning
+---------------------------------------*/
+
+.sidebar {
+/*---------------------------------------
+next 3 lines for easy comparison to model site
+---------------------------------------*/
+  position: absolute;
+  top: 150px;
+  left: 41px;
+/*---------------------------------------
+delete previous 3 lines when done positioning
+---------------------------------------*/
