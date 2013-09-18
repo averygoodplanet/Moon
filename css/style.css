@@ -7,9 +7,11 @@ body {
 /*White Section (section on the right near the big planet picture)*/
 
 #white_section {
+  float: left;
   width: 750px;
   border: 1px solid black;
   border-top-right-radius: 25px;
+  background-color: white;
 }
 
 #path {
@@ -236,18 +238,10 @@ body {
 /*---------------------------------------
 delete body declaration when done positioning
 ---------------------------------------*/
-
 .sidebar {
-/*---------------------------------------
-next 3 lines for easy comparison to model site
----------------------------------------*/
-  position: absolute;
-  top: 150px;
-  left: 41px;
-/*---------------------------------------
-delete previous 3 lines when done positioning
----------------------------------------*/
-=======
+  float: left;
+}
+
 body {
   font-family: Helvetica,Arial,sans-serif;
   }
