@@ -1,4 +1,5 @@
 
+
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -246,3 +247,112 @@ next 3 lines for easy comparison to model site
 /*---------------------------------------
 delete previous 3 lines when done positioning
 ---------------------------------------*/
+=======
+body {
+  font-family: Helvetica,Arial,sans-serif;
+  }
+
+.secondary header {
+  color: white;
+  font-weight: bold;
+  padding: 2px 0 2px 10px;
+  margin-bottom: -16px;
+  }
+.secondary li {
+  list-style-type: none;
+  margin: 0 0 2px -40px;
+  padding: 2px 0 2px 5px;
+  background-color: rgb(212,222,235);
+  font-size: 12px;
+}
+.secondary header.red {
+  background: transparent url('../images/bg-header-red.png') repeat-y;
+  }
+
+.secondary header.green {
+  background: transparent url('../images/bg-header-green.png') repeat-y;
+  }
+
+.secondary header.gold {
+  background: transparent url('../images/bg-header-gold.png') repeat-y;
+  }
+
+.secondary header.blue {
+  background: transparent url('../images/bg-header-blue.png') repeat-y;
+  }
+
+.secondary .facts {
+  font-weight: bold;
+}
+
+.secondary .units li {
+  display: inline;
+  color: gray;
+  margin: 0 32px 0 -40px;
+  padding: 4px;
+}
+
+.secondary .units li:before {
+content: " | ";
+}
+
+.secondary .units li:first-child:before {
+  content: none;
+}
+
+.secondary .units li:last-child {
+  border-right: solid 500px transparent;
+  overflow: hidden;
+}
+
+.secondary .units .active {
+  color: black;
+}
+
+.secondary .factlist {
+  margin: -11px 0 0 0;
+}
+
+.secondary .factlist span {
+  color: darkblue;
+}
+
+.secondary .resources {
+  font-weight: bold;
+  color: darkblue;
+}
+
+.secondary .date-event span {
+  font-weight: bold;
+}
+
+.secondary .spotlight span.name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.secondary .spotlight span.date:after {
+  content: '\A';
+  white-space: pre;
+}
+
+.secondary .spotlight .featured .name:after {
+  content: '\A';
+  white-space: pre;
+}
+
+.secondary .spotlight .featured img {
+  float: right;
+  margin: 7px;
+}
+
+.secondary .more {
+  font-weight: bold;
+}
+
+.clear {
+  float: none;
+  clear: both;
+}
+
